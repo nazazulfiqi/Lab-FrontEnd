@@ -1,0 +1,16 @@
+:root{
+  --main-bg-color: linear-gradient(116.83deg, #000F45 -0.62%, #000F42 7.24%, #00061C 94.96%);
+  --main-bg-non-color: #010E3D;
+}
+
+.btn-primary {
+  background-color: #010E3D;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
