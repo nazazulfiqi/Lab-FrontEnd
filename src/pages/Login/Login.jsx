@@ -96,7 +96,7 @@ function Login() {
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left overlay-register">
-              <h1>Welcome Back!</h1>
+              <img src="assets/images/logowhite.svg" alt="" />
               <p className="text-auth">
                 To keep connected with us please login with your personal info
               </p>
@@ -109,7 +109,8 @@ function Login() {
               </button>
             </div>
             <div className="overlay-panel overlay-right overlay-login">
-              <h1>Hello, Friend!</h1>
+              <img src="assets/images/logowhite.svg" alt="" />
+
               <p className="text-auth">
                 Enter your personal details and start journey with us
               </p>

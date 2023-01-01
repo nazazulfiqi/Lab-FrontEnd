@@ -6,7 +6,7 @@ function NavbarComponent() {
       <div className="container">
         <a class="navbar-brand me-0" href="#">
           <img
-            src="assets/images/logolabwhite.png"
+            src="assets/images/logowhite.svg"
             width="80%"
             class="d-inline-block align-text-top mx-auto"
           />

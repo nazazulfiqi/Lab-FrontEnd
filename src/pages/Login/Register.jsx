@@ -12,7 +12,7 @@ function Register() {
   });
   return (
     <>
-      <div className="form-container sign-in-container">
+      <div className="form-container sign-in-container ">
         <form action="#" className="form-auth">
           <h1 className="fw-bold">Create Account</h1>
           <div className="social-container">

@@ -1,6 +1,14 @@
 :root{
   --main-bg-color: linear-gradient(116.83deg, #000F45 -0.62%, #000F42 7.24%, #00061C 94.96%);
   --main-bg-non-color: #010E3D;
+  --blue-color: #289adc;
+  --cyan-color: #00c9ac;
+  --grey-blue-color: #334962;
+  --grey-color: #9ea4ac;
+  --light-blue-color: #7b92ad;
+  --light-grey-color: #f4f6fa;
+  --white-color: #fff;
+  --trans: all 300ms ease-in-out;
 }
 
 .btn-primary {
