@@ -12,7 +12,7 @@ function Hero() {
             Penyajian Informasi seputar Laboratorium Sistem Informasi.
           </p>
           <div className="button-hero">
-            <button type="button" class="btn btn-primary mt-2">
+            <button type="button" className="btn btn-primary mt-2">
               Hubungi Kami
             </button>
           </div>

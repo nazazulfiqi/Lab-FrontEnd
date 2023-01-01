@@ -138,6 +138,8 @@ button{
 .overview-section{
     border: 2px solid rgba(158, 164, 172, 0.3);
     border-radius: 6px;
+    height: 350px;
+    overflow-y: scroll;
 }
 .overview-section-list a{
     color: unset;
@@ -178,3 +180,9 @@ button{
 .overview-section-item:hover .btn-outline-sm{
     border-color: var(--white-color);
 }
+
+.overflow-auto::-webkit-scrollbar{
+    display: none;
+  }
+
+/* Dashboard Main */

@@ -4,11 +4,11 @@ function NavbarComponent() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
       <div className="container">
-        <a class="navbar-brand me-0" href="#">
+        <a className="navbar-brand me-0" href="#">
           <img
             src="assets/images/logowhite.svg"
             width="80%"
-            class="d-inline-block align-text-top mx-auto"
+            className="d-inline-block align-text-top mx-auto"
           />
         </a>
         <button

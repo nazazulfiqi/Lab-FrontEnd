@@ -11,6 +11,10 @@
   --trans: all 300ms ease-in-out;
 }
 
+.bg-bluegrad {
+  background: var(--main-bg-color);
+}
+
 .btn-primary {
   background-color: #010E3D;
 }

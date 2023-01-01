@@ -6,10 +6,17 @@ function Register() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!localStorage.getItem("device")) {
+    if (
+      !localStorage.getItem("device") ||
+      localStorage.getItem("device") !== "hp"
+    ) {
       navigate("/");
     }
   });
+
+  const handleRemoveDevice = () => {
+    localStorage.removeItem("device");
+  };
   return (
     <>
       <div className="form-container sign-in-container ">
@@ -37,7 +44,12 @@ function Register() {
           <div className="bottom-button d-flex">
             <button className="btn-auth">Sign Up</button>
             <Link to={"/login"}>
-              <button className="btn-auth create-account">Sign In</button>
+              <button
+                className="btn-auth create-account"
+                onClick={handleRemoveDevice}
+              >
+                Sign In
+              </button>
             </Link>
           </div>
         </form>
