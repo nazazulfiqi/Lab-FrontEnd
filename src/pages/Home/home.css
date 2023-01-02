@@ -14,7 +14,7 @@
   
   .container-pagehome{
     background-image: url("assets/images/accsentbg.png");
-    background-size: 100%;
+    background-size:auto;
     background-repeat: no-repeat;
   }
   
@@ -45,7 +45,7 @@
 
 .container-laporan {
   height: 100%;
-  width: 100vw;
+
 }
 
 .title-laporan{
