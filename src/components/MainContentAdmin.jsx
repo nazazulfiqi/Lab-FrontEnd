@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import AsistenAktif from "./AsistenAktif";
 import CardInfo from "./CardInfo";
+import KepalaLab from "./KepalaLab";
 
 function MainContentAdmin() {
+  const pilihMenu = localStorage.getItem("menu");
+
+  console.log(pilihMenu);
+
   return (
     <div className="dashboard-main bg-bluegrad pb-5">
       <div className="container">
@@ -11,84 +17,8 @@ function MainContentAdmin() {
           <CardInfo />
           <CardInfo />
         </div>
-        <div className="row py-3">
-          <div className="col-12 d-flex justify-content-between align-items-center">
-            <div className="dashboard-title-text">
-              <h2 className="text-white">Asisten Aktif</h2>
-              <p className="text-grey">Daftar Asisten Laboratorium SI/MI</p>
-            </div>
-            <button type="button" className="fs-18 text-grey-blue">
-              <i className="fas fa-ellipsis-vertical"></i>
-            </button>
-          </div>
-        </div>
-
-        <div className="overview-section p-4 overflow-auto">
-          <table class="table table-dark table-striped">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <AsistenAktif />
+        <KepalaLab />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../../components/Hero";
+import LaporanAkhir from "../../components/LaporanAkhir";
 import NavbarComponent from "../../components/NavbarComponent";
 import "./home.css";
 
@@ -15,6 +16,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <LaporanAkhir />
       </div>
     </div>
   );

@@ -5,12 +5,12 @@ import {
   faPenToSquare,
   faTrash,
 } from "@fortawesome/free-solid-svg-icons";
-function AsistenAktif() {
+function KepalaLab() {
   return (
     <div className="row py-3">
       <div className="col-12 d-flex justify-content-between align-items-center">
         <div className="dashboard-title-text">
-          <h2 className="text-white">Asisten Aktif</h2>
+          <h2 className="text-white">Kepala Lab</h2>
           <p className="text-grey">Daftar Asisten Laboratorium SI/MI</p>
         </div>
         <button type="button" className="fs-18 text-grey-blue">
@@ -67,4 +67,4 @@ function AsistenAktif() {
   );
 }
 
-export default AsistenAktif;
+export default KepalaLab;

@@ -1,5 +1,5 @@
 
-  
+    /* Hero */
   p {
     font-weight: 400;
   }
@@ -39,7 +39,31 @@
     height: 3rem;
   }
 
-  /* Home */
+
+
+    /* Laporan Page */
+
+.container-laporan {
+  height: 100%;
+  width: 100vw;
+}
+
+.title-laporan{
+  font-weight: 600;
+  
+}
+
+.icon-laporan {
+  font-size: 4rem;
+}
+
+.text-laporan {
+  font-size: 1rem;
+}
+
+.card-laporan {
+  height: 17rem;
+}
 
   /* Responsive Tablet */
   @media only screen and (max-width: 900px) {
@@ -110,3 +134,4 @@
       width: 90%;
     }
   }
+
