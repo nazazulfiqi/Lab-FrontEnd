@@ -16,7 +16,8 @@
   .container-pagehome{
     background-image: url("assets/images/accsentbg.png");
     background-size:auto;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+
   }
   
   .title-hero{
@@ -45,8 +46,14 @@
     /* Laporan Page */
 
 .container-laporan {
-  height: 100%;
+  padding-top: 30px;
+  min-height: 100%;
+  padding-bottom: 70px;
 
+}
+
+.laporan-wrap {
+  border-radius: 7px;
 }
 
 .title-laporan{
@@ -64,6 +71,94 @@
 
 .card-laporan {
   height: 17rem;
+}
+
+.laporan-wrap {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Perlengkapan Praktikan */
+.container-perlengkapan {
+  padding-top: 30px;
+  min-height: 100%;
+  padding-bottom: 70px;
+
+}
+
+/* Card Perlengkapan */
+
+
+
+.card-perlengkapan {
+      height: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.07);
+      
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(4px);
+    
+
+}
+
+ .card-perlengkapan .card-body h1 {
+  font-size: 5rem;
+}
+
+ .card-perlengkapan h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+ .card-perlengkapan p {
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+ .card-perlengkapan .btn-light {
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: var(--main-bg-non-color);
+}
+
+/* Tata Tertib Praktikan */
+.container-tatatertib{
+  padding-top: 30px;
+  min-height: 100%;
+  padding-bottom: 70px;
+
+}
+
+/* Struktur */
+
+.card-struktur {
+  height: 100%;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.jabatan-struktur {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nama-struktur {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.masa-jabatan {
+  font-size: 12px;
+  line-height: 17px;
 }
 
   /* Responsive Tablet */
@@ -131,8 +226,7 @@
       text-align: center  ;
     }
     .image-hero img{
-     
-      width: 90%;
+      width: 100%;
     }
   
   }

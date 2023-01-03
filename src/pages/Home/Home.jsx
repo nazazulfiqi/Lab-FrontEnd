@@ -3,6 +3,9 @@ import Hero from "../../components/Hero";
 import LaporanAkhir from "../../components/LaporanAkhir";
 import NavbarComponent from "../../components/NavbarComponent";
 import "./home.css";
+import Perlengkapan from "../../components/Perlengkapan";
+import TataTertib from "../../components/TataTertib";
+import Struktur from "../../components/Struktur";
 
 function Home() {
   return (
@@ -17,6 +20,9 @@ function Home() {
           </div>
         </div>
         <LaporanAkhir />
+        <Perlengkapan />
+        <TataTertib />
+        <Struktur />
       </div>
     </div>
   );

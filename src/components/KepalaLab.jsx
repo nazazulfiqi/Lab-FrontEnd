@@ -33,7 +33,7 @@ function KepalaLab() {
             <tr>
               <th scope="row">1</th>
               <td>10420064</td>
-              <td>Naza Zulfiqi</td>
+              <td>Yudi Irawan C</td>
               <td>Lenteng Agung</td>
               <td>
                 <FontAwesomeIcon icon={faPenToSquare} className="me-2 " />

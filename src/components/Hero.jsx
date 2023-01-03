@@ -17,8 +17,8 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="col-lg-6 image-hero">
-          <img src="assets/images/phone.png" width="80%" />
+        <div className="col-lg-6 image-hero ">
+          <img src="assets/images/phone.png" className="col-lg-11" />
         </div>
       </div>
     </div>

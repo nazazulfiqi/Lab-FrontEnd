@@ -19,7 +19,7 @@ function AsistenAktif() {
       </div>
 
       <div className="overview-section p-0 p-md-1 p-lg-2 overflow-auto col-12">
-        <table class="table table-dark table-striped">
+        <table className="table table-dark table-striped">
           <thead>
             <tr>
               <th scope="col">No.</th>
