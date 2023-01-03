@@ -2,15 +2,17 @@ import React from "react";
 
 function LaporanAkhir() {
   return (
-    <section className="container container-laporan d-flex align-items-center p-0">
+    <section className="container container-laporan">
       <div className="row mx-0 px-0">
-        <div className="col-lg-12">
-          <h1 className="text-white text-center mt-5">Laporan Akhir</h1>
-        </div>
-        <div className="row mx-0 px-0 text-center px-0">
-          <div className="col-lg-3 col-md-6 col-12">
+        <div className="col-lg-12 px-0 col-12"></div>
+        <div className="row mx-0 text-center text-white">
+          <h1 className="title-laporan mb-3 mb-4">Laporan Akhir</h1>
+          <p className="desc-hero">
+            Berikut adalah tata cara mengumpulkan laporan akhir.
+          </p>
+          <div className="col-lg-3 col-md-6 col-12 mb-3">
             <div className="card border-0 bg-bluegrad text-white p-lg-3 card-laporan">
-              <div className="card-body px-4">
+              <div className="card-body">
                 <blockquote className="blockquote mb-0">
                   <i class="fa-solid fa-file-word icon-laporan"></i>
                   <h4 className="mt-3">Step 1</h4>
@@ -21,7 +23,7 @@ function LaporanAkhir() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-12">
+          <div className="col-lg-3 col-md-6 col-12 mb-3">
             <div className="card border-0 bg-bluegrad text-white p-lg-3 card-laporan">
               <div className="card-body">
                 <blockquote className="blockquote mb-0">
@@ -34,7 +36,7 @@ function LaporanAkhir() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-12">
+          <div className="col-lg-3 col-md-6 col-12 mb-3">
             <div className="card border-0 bg-bluegrad text-white p-lg-3 card-laporan">
               <div className="card-body">
                 <blockquote className="blockquote mb-0">
@@ -47,7 +49,7 @@ function LaporanAkhir() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-12">
+          <div className="col-lg-3 col-md-6 col-12 mb-3">
             <div className="card border-0 bg-bluegrad text-white p-lg-3 card-laporan">
               <div className="card-body">
                 <blockquote className="blockquote mb-0">

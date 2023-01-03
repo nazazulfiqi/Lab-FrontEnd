@@ -10,7 +10,7 @@ function Home() {
       <div className="container-fluid container-pagehome">
         <NavbarComponent />
         <div className="container container-home d-flex align-items-center">
-          <div className="row">
+          <div className="row mx-0">
             <div className="col-lg-12">
               <Hero />
             </div>
