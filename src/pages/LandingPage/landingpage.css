@@ -13,7 +13,12 @@
     height: 10vh;
   }
   
+  .container-pagehome{
+    background-image: url("assets/images/accsentbg.png");
+    background-size:auto;
+    /* background-repeat: no-repeat; */
 
+  }
   
   .title-hero{
     font-weight: 600;
