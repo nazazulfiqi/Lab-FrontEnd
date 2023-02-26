@@ -1,10 +1,10 @@
 import React from "react";
-import CardAsisten from "./CardAsisten";
-import CardKepalaLab from "./CardKepalaLab";
+import CardAsisten from "./StrukturComponent/CardAsisten";
+import CardKepalaLab from "./StrukturComponent/CardKepalaLab";
 
 function Struktur() {
   return (
-    <section className="container container-perlengkapan">
+    <section className="container container-perlengkapan" id="struktur">
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-6"></div>
         <div className="row mx-0 text-center text-white">
@@ -14,8 +14,6 @@ function Struktur() {
           </p>
           <CardKepalaLab />
           <div className="row mx-0 ">
-            <CardAsisten />
-            <CardAsisten />
             <CardAsisten />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function TataTertib() {
   return (
-    <section className="container container-tatatertib">
+    <section className="container container-tatatertib" id="peraturan">
       <div className="row d-flex mx-0">
         <div className="col-lg-6 col-12 text-center my-auto">
           <img
@@ -21,31 +21,35 @@ function TataTertib() {
           <div className="tata-point">
             <div className="tatatertib d-flex">
               <img src="assets/icon/checklist.svg" alt="" className="me-4" />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis, magnam.
+              <p className="text-justify">
+                Praktikum wajib diikuti oleh semua mahasiswa STMIK Jakarta STI&K
+                pada semester bersangkutan dan bersedia menjalankan tata tertib
+                yang sudah ditetapkan oleh Laboratorium Sistem Informasi.
               </p>
             </div>
             <div className="tatatertib d-flex">
               <img src="assets/icon/checklist.svg" alt="" className="me-4" />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis, magnam.
+              <p className="text-justify">
+                Praktikum dilaksanakan sesuai dengan jadwal yang telah
+                ditentukan dengan jumlah pertemuan praktikum yang wajib diikuti
+                oleh praktikan
               </p>
             </div>
             <div className="tatatertib d-flex">
               <img src="assets/icon/checklist.svg" alt="" className="me-4" />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis, magnam.
+              <p className="text-justify">
+                Peserta praktikum (Praktikan) wajib hadir tepat waktu dan sesuai
+                jadwal yang telah ditetapkan.
               </p>
             </div>
             <div className="tatatertib d-flex">
               <img src="assets/icon/checklist.svg" alt="" className="me-4" />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis, magnam.
+              <p className="text-justify">
+                Memelihara suasana yang nyaman dan tenang selama praktikum
               </p>
+            </div>
+            <div className="tatatertib d-flex justify-content-end">
+              <p className="">Selengkapnya....</p>
             </div>
           </div>
         </div>

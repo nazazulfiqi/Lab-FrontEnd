@@ -11,6 +11,10 @@
   --trans: all 300ms ease-in-out;
 }
 
+.text-greyblue {
+  color: var(--grey-blue-color);
+}
+
 .bg-bluegrad {
   background: var(--main-bg-color);
 }

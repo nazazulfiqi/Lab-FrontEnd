@@ -2,7 +2,7 @@ import React from "react";
 
 function Perlengkapan() {
   return (
-    <section className="container container-perlengkapan">
+    <section className="container container-perlengkapan" id="perlengkapan">
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-6"></div>
         <div className="row mx-0 text-center text-white">
@@ -49,7 +49,7 @@ function Perlengkapan() {
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1-JQsT38iydN7XKDYvLf2QnpWLeqQDJkK/view"
+                      href="https://drive.google.com/drive/folders/1J6poHzuOU8Gef_4PuKdVYl369zOWjkdV"
                       target="_blank"
                       className="btn btn-light text-center"
                     >

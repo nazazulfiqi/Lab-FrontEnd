@@ -7,7 +7,7 @@ function NavbarComponent() {
         <a className="navbar-brand me-0" href="#">
           <img
             src="assets/images/logowhite.svg"
-            width="80%"
+            height={80}
             className="d-inline-block align-text-top mx-auto"
           />
         </a>
@@ -24,20 +24,23 @@ function NavbarComponent() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto mt-2">
-            <a className="nav-link me-4" aria-current="page" href="#">
+            <a className="nav-link me-4" aria-current="page" href="#hero">
               Beranda
             </a>
-            <a className="nav-link me-4" href="#">
+            <a className="nav-link me-4" href="#berita">
               Berita
             </a>
-            <a className="nav-link me-4" href="#">
-              File
+            <a className="nav-link me-4" href="#laporan-akhir">
+              Laporan
             </a>
-            <a className="nav-link me-4" href="#">
+            <a className="nav-link me-4" href="#perlengkapan">
+              Perlengkapan
+            </a>
+            <a className="nav-link me-4" href="#peraturan">
+              Peraturan
+            </a>
+            <a className="nav-link me-4" href="#struktur">
               Struktur
-            </a>
-            <a className="nav-link me-4" href="#">
-              Kontak
             </a>
           </div>
         </div>
