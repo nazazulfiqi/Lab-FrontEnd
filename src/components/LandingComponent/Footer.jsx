@@ -28,7 +28,7 @@ function Footer() {
                 <h6 className="fw-bold text-white text-center text-md-start text-lg-start ps-lg-5">
                   FEATURES
                 </h6>
-                <ul className="list-unstyled footer-text d-flex me-1 d-md-block d-lg-block justify-content-center ps-lg-5">
+                <ul className="list-unstyled footer-text me-1 d-md-block d-lg-block justify-content-center ps-lg-5">
                   <li className="pe-2">
                     <a href="#">Beranda</a>
                   </li>
