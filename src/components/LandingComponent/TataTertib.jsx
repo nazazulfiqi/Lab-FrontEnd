@@ -49,7 +49,12 @@ function TataTertib() {
               </p>
             </div>
             <div className="tatatertib d-flex justify-content-end">
-              <p className="">Selengkapnya....</p>
+              <a
+                href="https://drive.google.com/file/d/1EjGCusu8nFdE3XELSJeX9cHmpgOQQloq/view?usp=sharing"
+                className="text-decoration-none text-white"
+              >
+                <p className=""> Selengkapnya....</p>
+              </a>{" "}
             </div>
           </div>
         </div>

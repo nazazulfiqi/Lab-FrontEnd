@@ -12,9 +12,12 @@ function Hero() {
             Penyajian Informasi seputar Laboratorium Sistem Informasi.
           </p>
           <div className="button-hero">
-            <button type="button" className="btn btn-primary mt-2">
-              Hubungi Kami
-            </button>
+            <a href="https://api.whatsapp.com/send/?phone=6285782694950&text&type=phone_number&app_absent=0">
+              {" "}
+              <button type="button" className="btn btn-primary mt-2">
+                Hubungi Kami
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-lg-6 image-hero ">
