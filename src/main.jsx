@@ -5,17 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import App from "./App";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NotFound from "./components/NotFound/NotFound";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <div className="App">
-      <App />
-    </div>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <App />
   </BrowserRouter>
 );
