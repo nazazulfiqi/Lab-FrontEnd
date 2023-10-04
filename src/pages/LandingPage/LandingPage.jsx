@@ -30,7 +30,7 @@ function LandingPage() {
         <LaporanAkhir />
         <Perlengkapan />
         <TataTertib />
-        <Struktur />
+        {/* <Struktur /> */}
         <Footer />
       </div>
     </div>
