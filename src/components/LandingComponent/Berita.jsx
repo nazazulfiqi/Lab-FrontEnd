@@ -13,7 +13,7 @@ function Berita() {
           <p className="desc-hero text-center mb-4">
             Berikut adalah berita tentang praktikum di laboratorium.
           </p>
-          <Carousel className="pb-5">
+          <Carousel className="pb-5" interval={1000}>
             <CarouselItem>
               <div className="col-lg-8 col-md-12 col-12 mb-3 mx-auto ">
                 <div
