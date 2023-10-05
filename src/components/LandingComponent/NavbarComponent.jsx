@@ -8,29 +8,30 @@ function NavbarComponent() {
           <a className="navbar-brand me-0" href="#">
             <img
               src="assets/images/logo-stmik.png"
-              height={80}
+              height={60}
               className="d-inline-block align-text-top mx-auto"
             />
           </a>
           <a className="navbar-brand me-0" href="#">
             <img
               src="assets/images/logowhite.svg"
-              height={80}
+              height={60}
               className="d-inline-block align-text-top mx-auto"
             />
           </a>
-          <button
-            className="navbar-toggler mt-2"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
         </div>
+
+        <button
+          className="navbar-toggler mt-2 ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto mt-2">
