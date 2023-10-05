@@ -64,7 +64,7 @@ function Footer() {
                     <li>
                       <i className="fa-solid fa-envelope text-white me-2"></i>
                       <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-                        labsimi2023@gmail.com
+                        labsimi2024@gmail.com
                       </a>
                     </li>
                     <li>
@@ -76,13 +76,13 @@ function Footer() {
                     <li>
                       <i className="fa-brands fa-whatsapp text-white me-2"></i>
                       <a href="https://api.whatsapp.com/send/?phone=6287771365424&text&type=phone_number&app_absent=0">
-                        +62 877-7136-5424 (Clarissa)
+                        +62 882-1179-7682 (Naza)
                       </a>
                     </li>
                     <li>
                       <i className="fa-brands fa-whatsapp text-white me-2"></i>
                       <a href="https://api.whatsapp.com/send/?phone=6285881839674&text&type=phone_number&app_absent=0">
-                        +62 858-8183-9674 (Daffa)
+                        +62 857-1826-3610 (Putri)
                       </a>
                     </li>
                   </ul>

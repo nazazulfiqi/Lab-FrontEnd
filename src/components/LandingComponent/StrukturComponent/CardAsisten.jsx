@@ -16,8 +16,10 @@ function CardAsisten() {
                 <div className="col-md-5 col-4 mx-auto my-auto">
                   <img
                     src={data.image}
-                    className="img-fluid rounded-start"
+                    className="img-fluid  rounded-circle"
                     alt="..."
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className="col-md-7 col-8">

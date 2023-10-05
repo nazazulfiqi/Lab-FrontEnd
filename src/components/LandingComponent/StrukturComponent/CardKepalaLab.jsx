@@ -18,6 +18,8 @@ function CardKepalaLab() {
                   src={item.kepalaLab.image}
                   className="img-fluid rounded-start"
                   alt="..."
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="col-md-7 col-8">

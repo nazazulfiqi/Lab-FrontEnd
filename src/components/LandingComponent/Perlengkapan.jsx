@@ -25,7 +25,7 @@ function Perlengkapan() {
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1-JQsT38iydN7XKDYvLf2QnpWLeqQDJkK/view"
+                      href="https://drive.google.com/file/d/1HBkq3yAv3wkK_gGkIr_ohp3O7aewgcXq/view?usp=drive_link"
                       target="_blank"
                       className="btn btn-light text-center"
                     >
@@ -73,7 +73,7 @@ function Perlengkapan() {
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1-JQsT38iydN7XKDYvLf2QnpWLeqQDJkK/view"
+                      href="https://drive.google.com/file/d/1wPznEF7kSQ6G-Thoro_5s1DZzY17xHbK/view?usp=drive_link"
                       target="_blank"
                       className="btn btn-light text-center"
                     >
