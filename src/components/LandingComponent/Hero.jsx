@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="container" id="hero">
       <div className="row">
-        <div className="col-lg-6 text-white">
+        <div className="col-lg-6 text-white col-12">
           <h1 className="title-hero">
             Laboratorium Sistem Informasi & Manajemen Informatika
           </h1>
@@ -20,7 +20,7 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="col-lg-6 image-hero ">
+        <div className="col-lg-6 image-hero col-12">
           <img src="assets/images/phone.png" className="col-lg-11" />
         </div>
       </div>

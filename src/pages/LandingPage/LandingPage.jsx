@@ -19,8 +19,8 @@ function LandingPage() {
         style={{ backgroundImage: `url(${backgroundHome})` }}
       >
         <NavbarComponent />
-        <div className="container container-home d-flex align-items-center">
-          <div className="row mx-0">
+        <div className="container container-home d-flex align-items-center mt-5">
+          <div className="row ">
             <div className="col-lg-12">
               <Hero />
             </div>
