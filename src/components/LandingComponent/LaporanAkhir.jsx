@@ -2,7 +2,11 @@ import React from "react";
 
 function LaporanAkhir() {
   return (
-    <section className="container container-laporan" id="laporan-akhir">
+    <section
+      className="container container-laporan"
+      id="laporan-akhir"
+      data-aos="fade-up-right"
+    >
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-6"></div>
         <div className="row mx-0 text-center text-white">

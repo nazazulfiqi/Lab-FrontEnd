@@ -4,7 +4,12 @@ import CardKepalaLab from "./StrukturComponent/CardKepalaLab";
 
 function Struktur() {
   return (
-    <section className="container container-perlengkapan" id="struktur">
+    <section
+      className="container container-perlengkapan"
+      id="struktur"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-6"></div>
         <div className="row mx-0 text-center text-white">

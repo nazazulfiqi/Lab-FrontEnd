@@ -2,7 +2,11 @@ import React from "react";
 
 function TataTertib() {
   return (
-    <section className="container container-tatatertib" id="peraturan">
+    <section
+      className="container container-tatatertib"
+      id="peraturan"
+      data-aos="flip-left"
+    >
       <div className="row d-flex mx-0">
         <div className="col-lg-6 col-12 text-center my-auto">
           <img

@@ -5,7 +5,11 @@ import ModalBerita2 from "./ModalBerita2";
 
 function Berita() {
   return (
-    <section className="container container-laporan" id="berita">
+    <section
+      className="container container-laporan"
+      id="berita"
+      data-aos="fade-up"
+    >
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-12"></div>
         <div className="row mx-0 text-center text-white">

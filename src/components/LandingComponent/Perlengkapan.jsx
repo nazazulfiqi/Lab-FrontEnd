@@ -2,7 +2,11 @@ import React from "react";
 
 function Perlengkapan() {
   return (
-    <section className="container container-perlengkapan" id="perlengkapan">
+    <section
+      className="container container-perlengkapan"
+      id="perlengkapan"
+      data-aos="zoom-in-right"
+    >
       <div className="row mx-0 px-0">
         <div className="col-lg-12 px-0 col-12 col-md-6"></div>
         <div className="row mx-0 text-center text-white">
