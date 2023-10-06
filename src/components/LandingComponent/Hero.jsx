@@ -1,4 +1,5 @@
 import React from "react";
+import "../../pages/LandingPage/landingpage.css";
 
 function Hero() {
   return (
@@ -21,7 +22,10 @@ function Hero() {
           </div>
         </div>
         <div className="col-lg-6 image-hero col-12">
-          <img src="assets/images/phone.png" className="col-lg-11" />
+          <img
+            src="assets/images/phone.png"
+            className="col-lg-11 updown-animation"
+          />
         </div>
       </div>
     </div>

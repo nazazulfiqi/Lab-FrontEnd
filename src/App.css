@@ -31,5 +31,25 @@
   
 }
 
+.updown-animation {
+  animation-name: ifiniteupdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .3s;
+}
+
+@keyframes infiniteupdown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
+}
 
 
