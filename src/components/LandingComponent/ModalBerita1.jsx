@@ -23,7 +23,7 @@ function ModalBerita1() {
         <Modal.Body>
           {" "}
           <img
-            src="assets/images/jadwal.png"
+            src="assets/images/PTA-2324.jpeg"
             className="img-fluid"
             alt=""
           />{" "}

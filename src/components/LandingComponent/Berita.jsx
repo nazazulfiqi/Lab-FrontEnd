@@ -27,7 +27,7 @@ function Berita() {
                   <div className="row g-0">
                     <div className="col-md-5 col-5 my-auto mx-auto">
                       <img
-                        src="assets/images/jadwal.png"
+                        src="assets/images/PTA-2324.jpeg"
                         className="img-fluid rounded-start"
                         alt="..."
                       />
@@ -38,12 +38,12 @@ function Berita() {
                           Jadwal Praktikum
                         </p>
                         <p className="rangkum-berita nama-struktur text-start">
-                          Berikut adalah Jadwal Praktikum 2023.
+                          Berikut adalah Jadwal Praktikum PTA 2023/2024.
                         </p>
 
                         <ModalBerita1 />
                         <p className="tanggal-berita text-end masa-jabatan ">
-                          Last updated 1 months ago
+                          Last updated 1 days ago
                         </p>
                       </div>
                     </div>
@@ -52,12 +52,13 @@ function Berita() {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="col-lg-8 col-md-12 col-12 mb-3 mx-auto ">
-                <div className="card mb-3 col-lg-12 card-berita">
+              <div className="col-lg-8 col-md-12 col-12 mb-3 mx-auto overflow">
+                <div className="card mb-3 col-lg-12 card-berita overflow-hidden">
                   <div className="row g-0">
                     <div className="col-md-5 col-4 my-auto mx-auto">
                       <img
-                        src="assets/images/lap1.jpg"
+                        src="assets/images/pakaian1.jpg"
+                        height={120}
                         className="img-fluid rounded-start"
                         alt="..."
                       />

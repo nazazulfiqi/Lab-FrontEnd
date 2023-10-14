@@ -36,7 +36,7 @@ function LaporanAkhir() {
                       <i className="fa-solid fa-file-import icon-laporan "></i>
                       <h4 className="mt-3">Step 2</h4>
                       <p className="mt-3 text-laporan">
-                        Kirim file .pdf & program rar / zip
+                        Kirim file .pdf & program rar / zip ke Google Classroom
                       </p>
                     </blockquote>
                   </div>

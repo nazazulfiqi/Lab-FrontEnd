@@ -75,13 +75,13 @@ function Footer() {
                     </li>
                     <li>
                       <i className="fa-brands fa-whatsapp text-white me-2"></i>
-                      <a href="https://api.whatsapp.com/send/?phone=6287771365424&text&type=phone_number&app_absent=0">
+                      <a href="https://api.whatsapp.com/send/?phone=6288211797682&text&type=phone_number&app_absent=0">
                         +62 882-1179-7682 (Naza)
                       </a>
                     </li>
                     <li>
                       <i className="fa-brands fa-whatsapp text-white me-2"></i>
-                      <a href="https://api.whatsapp.com/send/?phone=6285881839674&text&type=phone_number&app_absent=0">
+                      <a href="https://api.whatsapp.com/send/?phone=6285718263610&text&type=phone_number&app_absent=0">
                         +62 857-1826-3610 (Putri)
                       </a>
                     </li>
