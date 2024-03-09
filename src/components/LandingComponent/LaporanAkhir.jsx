@@ -62,7 +62,8 @@ function LaporanAkhir() {
                       <i className="fa-solid fa-hourglass-start icon-laporan"></i>
                       <h4 className="mt-3">Step 4</h4>
                       <p className="mt-3 text-laporan">
-                        Dikumpulkan H-2 jam 22.00 sebelum praktikum berikutnya
+                        Dikumpulkan H-2 pada pukul 22.00 sebelum praktikum
+                        berikutnya.
                       </p>
                     </blockquote>
                   </div>

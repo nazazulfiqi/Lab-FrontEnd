@@ -29,7 +29,7 @@ function Perlengkapan() {
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1HBkq3yAv3wkK_gGkIr_ohp3O7aewgcXq/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1JrMrg9bOncyJhti1WAWSKQx3wfmrD6BN/view?usp=sharing"
                       target="_blank"
                       className="btn btn-light text-center"
                     >
@@ -70,14 +70,14 @@ function Perlengkapan() {
                     <i className="fa-solid fa-folder-open icon-laporan pb-2"></i>
                   </div>
                   <h2 className="card-title text-center text-light">
-                    Berkas Praktikum
+                    Berkas Praktikan
                   </h2>
                   <p className="card-text text-center text-light">
                     Silahkan Unduh File Berkas Praktikum
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1wPznEF7kSQ6G-Thoro_5s1DZzY17xHbK/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1Mb54KqURKnE2u6KXadw19bhzKI4KRnQj/view?usp=sharing"
                       target="_blank"
                       className="btn btn-light text-center"
                     >

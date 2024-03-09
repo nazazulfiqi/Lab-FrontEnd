@@ -27,7 +27,7 @@ function Berita() {
                   <div className="row g-0">
                     <div className="col-md-5 col-5 my-auto mx-auto">
                       <img
-                        src="assets/images/PTA-2324.jpeg"
+                        src="assets/images/jadwal-ata-2324.jpg"
                         className="img-fluid rounded-start"
                         alt="..."
                       />
@@ -38,13 +38,11 @@ function Berita() {
                           Jadwal Praktikum
                         </p>
                         <p className="rangkum-berita nama-struktur text-start">
-                          Berikut adalah Jadwal Praktikum PTA 2023/2024.
+                          Berikut adalah Jadwal Praktikum ATA 2023/2024.
                         </p>
 
                         <ModalBerita1 />
-                        <p className="tanggal-berita text-end masa-jabatan ">
-                          Last updated 1 days ago
-                        </p>
+                        <p className="tanggal-berita text-end masa-jabatan "></p>
                       </div>
                     </div>
                   </div>
