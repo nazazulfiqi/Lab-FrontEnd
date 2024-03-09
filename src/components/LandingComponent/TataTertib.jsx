@@ -54,7 +54,7 @@ function TataTertib() {
             </div>
             <div className="tatatertib d-flex justify-content-end">
               <a
-                href="https://drive.google.com/file/d/1EjGCusu8nFdE3XELSJeX9cHmpgOQQloq/view?usp=sharing"
+                href="https://docs.google.com/document/d/1N4YviLuj4zkxPLzginsUZ9p9i3cZzyZW/edit?usp=sharing&ouid=116672102576339653660&rtpof=true&sd=true"
                 className="text-decoration-none text-white"
               >
                 <p className=""> Selengkapnya....</p>
