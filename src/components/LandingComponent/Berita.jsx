@@ -27,7 +27,7 @@ function Berita() {
                   <div className="row g-0">
                     <div className="col-md-5 col-5 my-auto mx-auto">
                       <img
-                        src="assets/images/jadwal-ata-2324.jpg"
+                        src="assets/images/ATA-2324.jpeg"
                         className="img-fluid rounded-start"
                         alt="..."
                       />
@@ -42,7 +42,9 @@ function Berita() {
                         </p>
 
                         <ModalBerita1 />
-                        <p className="tanggal-berita text-end masa-jabatan "></p>
+                        <p className="tanggal-berita text-end masa-jabatan ">
+                          Last Updated: 18-03-2024
+                        </p>
                       </div>
                     </div>
                   </div>

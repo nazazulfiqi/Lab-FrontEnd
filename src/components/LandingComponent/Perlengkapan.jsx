@@ -77,7 +77,7 @@ function Perlengkapan() {
                   </p>
                   <div className="button-lihat text-center">
                     <a
-                      href="https://drive.google.com/file/d/1Mb54KqURKnE2u6KXadw19bhzKI4KRnQj/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1E3JWIT7ilF6jmnWMgpdggIQO64IDCXaA/view"
                       target="_blank"
                       className="btn btn-light text-center"
                     >
