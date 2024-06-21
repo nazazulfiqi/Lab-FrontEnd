@@ -87,6 +87,30 @@ function Perlengkapan() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 col-12 mb-3">
+              <div className="card card-perlengkapan card-perlengkapan">
+                <div className="card-body ">
+                  <div className="card-icon text-center">
+                    <i className="fa-regular fa-file-lines icon-laporan pb-2"></i>
+                  </div>
+                  <h2 className="card-title text-center text-light">
+                    Modul Praktikum
+                  </h2>
+                  <p className="card-text text-center text-light">
+                    Silahkan Unduh Modul Praktikum
+                  </p>
+                  <div className="button-lihat text-center">
+                    <a
+                      href="https://drive.google.com/drive/folders/1CDoZtEryCj50eX32SJSbuVBidRZcCRqC?usp=sharing"
+                      target="_blank"
+                      className="btn btn-light text-center"
+                    >
+                      Lihat
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
