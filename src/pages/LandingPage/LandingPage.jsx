@@ -8,7 +8,7 @@ import NavbarComponent from "../../components/LandingComponent/NavbarComponent";
 import Perlengkapan from "../../components/LandingComponent/Perlengkapan";
 import Struktur from "../../components/LandingComponent/Struktur";
 import TataTertib from "../../components/LandingComponent/TataTertib";
-import backgroundHome from "../../../public/assets/images/accsentbg.png";
+import backgroundHome from "/assets/images/accsentbg.png";
 import "./landingpage.css";
 
 function LandingPage() {
