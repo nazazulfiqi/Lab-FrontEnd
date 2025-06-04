@@ -95,7 +95,16 @@ function Footer() {
       <div className="container-fluid border-top">
         <div className="row justify-content-center align-items-center pt-4">
           <div className="col-auto fw-light text-white footer-text">
-            2023 Copyright &#169; LABSIMI • All Rights Reserved
+            2025 Copyright &#169;{" "}
+            <a
+              href="https://www.linkedin.com/in/nazazulfiqi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-decoration-underline"
+            >
+              Naza Zulfiqi
+            </a>{" "}
+            - LABSIMI • All Rights Reserved
           </div>
         </div>
       </div>
