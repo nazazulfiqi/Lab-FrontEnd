@@ -31,7 +31,7 @@ function TataTertib() {
                 yang sudah ditetapkan oleh Laboratorium Sistem Informasi.
               </p>
             </div>
-            git
+
             <div className="tatatertib d-flex">
               <img src="assets/icon/checklist.svg" alt="" className="me-4" />
               <p className="text-justify">
