@@ -1,0 +1,55 @@
+:root{
+  --main-bg-color: linear-gradient(116.83deg, #000F45 -0.62%, #000F42 7.24%, #00061C 94.96%);
+  --main-bg-non-color: #010E3D;
+  --blue-color: #289adc;
+  --cyan-color: #00c9ac;
+  --grey-blue-color: #334962;
+  --grey-color: #9ea4ac;
+  --light-blue-color: #7b92ad;
+  --light-grey-color: #f4f6fa;
+  --white-color: #fff;
+  --trans: all 300ms ease-in-out;
+}
+
+.text-greyblue {
+  color: var(--grey-blue-color);
+}
+
+.bg-bluegrad {
+  background: var(--main-bg-color);
+}
+
+.btn-primary {
+  background-color: #010E3D;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.updown-animation {
+  animation-name: ifiniteupdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .3s;
+}
+
+@keyframes infiniteupdown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
+}
+
+
